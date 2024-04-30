@@ -15,7 +15,7 @@ dependencies:
   axi2mem:                { git: "https://github.com/pulp-platform/axi2mem.git", rev: "b0e963433b2f6a61262b1448031e74eaec57c203" } # branch: yt/astral
   axi2per:                { git: "https://github.com/pulp-platform/axi2per.git", rev: "4932bd2b88a1c7b5f0bf95411fc512905ed32439" } # branch: yt/astral
   per2axi:                { git: "https://github.com/pulp-platform/per2axi.git", rev: "95bf23119b47fc171d9ed3734c431f71cffd9350" } # branch: yt/astral
-  cluster_interconnect:   { git: "https://github.com/pulp-platform/cluster_interconnect.git", rev: 89e1019d64a86425211be6200770576cbdf3e8b3 } # branch: assertion-fix
+  cluster_interconnect:   { git: "https://github.com/pulp-platform/cluster_interconnect.git", rev: 1284def6c0b7f7e9355eb093d00883ad9dead1b7 } # branch: michaero/hci-fix
   event_unit_flex:        { git: "https://github.com/pulp-platform/event_unit_flex.git", rev: 28e0499374117c7b0ef4c6ad81b60d7526af886f } # branch: michaero/hmr
   mchan:                  { git: "https://github.com/pulp-platform/mchan.git", rev: 7f064f205a3e0203e959b14773c4afecf56681ab } # branch: yt/fix-parametrization
   idma:                   { git: "https://github.com/pulp-platform/iDMA.git", rev: 437ffa9dac5dea0daccfd3e8ae604d4f6ae2cdf1 } # branch: master
@@ -29,7 +29,7 @@ dependencies:
   cv32e40p:               { git: "https://github.com/pulp-platform/cv32e40p.git", rev: e863f576699815b38cc9d80dbdede8ed5efd5991 } # `michaero/safety-island-clic` branch
   ibex:                   { git: "https://github.com/pulp-platform/ibex.git", rev: "pulpissimo-v6.1.2" }
   scm:                    { git: "https://github.com/pulp-platform/scm.git", rev: 74426dee36f28ae1c02f7635cf844a0156145320 } # branch: yt/bump-clkgating
-  hci:                    { git: "https://github.com/pulp-platform/hci.git", version: 2.0 } # branch: breaking-names
+  hci:                    { git: "https://github.com/pulp-platform/hci.git", rev: d2aa751bef6f6aedd4d8af133e00fd1448aac2d3 } # branch: michaero/fix_interco
   register_interface:     { git: "https://github.com/pulp-platform/register_interface.git", version: 0.4.4  } # branch: master
   redundancy_cells:       { git: "https://github.com/pulp-platform/redundancy_cells.git", rev: c37bdb47339bf70e8323de8df14ea8bbeafb6583 } # branch: astral_rebase
   redmule:                { git: "https://github.com/pulp-platform/redmule.git", rev: 7abb256 } # branch: fc/hci-v2
